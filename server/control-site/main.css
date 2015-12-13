@@ -12,22 +12,35 @@ body {
   line-height: 1.5;
   font-family: 'Melbourne', sans-serif;
 }
-  
+
 .content {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 100vh;
+
+  font-size: 3em;
+}
+  
+.volume {
+  display: flex;
+  justify-content: center;
+}
+
+.player {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
-  font-size: 3em;
-  height: 100vh;
 }
 
-.content a {
+a {
   text-decoration: none;  
   color: black;
 }
 
-.content a:visited {
+a:visited {
   text-decoration: none;  
   color: black;
 }

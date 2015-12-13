@@ -12,17 +12,29 @@
     <script src="main.js"></script>
   </head>
   <body>
-    
+
     <div class="content">
-      <div>
-        <a href="#" onclick="$.get('http://192.168.0.101:8013/prev-song');">prev</a>
+      
+      <div class="volume">
+        <a href="#" onclick="$.get('http://192.168.0.101:8013/up-volume');">&#9650;</a>
       </div>
-      <div class="play">
-        <a href="#" onclick="$.get('http://192.168.0.101:8013/pause-song');">&#10073;&#10073; / &#9654;</a>
+
+      <div class="player">
+        <div>
+          <a href="#" onclick="$.get('http://192.168.0.101:8013/prev-song');">prev</a>
+        </div>
+        <div class="play">
+          <a href="#" onclick="$.get('http://192.168.0.101:8013/pause-song');">&#10073;&#10073; / &#9654;</a>
+        </div>
+        <div>
+          <a href="#" onclick="$.get('http://192.168.0.101:8013/next-song');">next</a>
+        </div>
       </div>
-      <div>
-        <a href="#" onclick="$.get('http://192.168.0.101:8013/next-song');">next</a>
+
+      <div class="volume">
+        <a href="#" onclick="$.get('http://192.168.0.101:8013/down-volume');">&#9660;</a>
       </div>
+
     </div>
     
   </body>
