@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'Melbourne';
+  src:url('../fonts/Melbourne_light.eot?') format('eot'),url('../fonts/Melbourne_light.woff') format('woff'),url('../fonts/Melbourne_light.ttf') format('truetype'),url('../fonts/Melbourne_light.svg#Melbourne') format('svg');
+  font-weight:normal;
+  font-style:normal;
+}
+
+body {
+  color: #000;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: 'Melbourne', sans-serif;
+}
+  
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  font-size: 3em;
+  height: 100vh;
+}
+
+.content a {
+  text-decoration: none;  
+  color: black;
+}
+
+.content a:visited {
+  text-decoration: none;  
+  color: black;
+}

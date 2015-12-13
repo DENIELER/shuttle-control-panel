@@ -1,0 +1,9 @@
+{
+  "name": "com.denieler.shuttle_control_panel",
+  "description": "Shuttle Control Panel",
+  "path": "extension-host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://gnlokadcjmbdmiglglghgcikfohfbdbp/"
+  ]
+}

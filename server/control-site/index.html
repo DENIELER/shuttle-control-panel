@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="webkid react starterkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Shuttle Control Panel</title>
+    <link rel="stylesheet" href="main.css">
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    
+    <div class="content">
+      <div>
+        <a href="#" onclick="$.get('http://192.168.0.101:8013/prev-song');">prev</a>
+      </div>
+      <div class="play">
+        <a href="#" onclick="$.get('http://192.168.0.101:8013/pause-song');">&#10073;&#10073; / &#9654;</a>
+      </div>
+      <div>
+        <a href="#" onclick="$.get('http://192.168.0.101:8013/next-song');">next</a>
+      </div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+	"name": "Shuttle Control Panel extension",
+	"description": "Shuttle Control Panel",
+	"version": "1",
+	"manifest_version": 2,
+	"permissions": [
+		"nativeMessaging",
+		"tabs",
+		"http://*/",
+        "https://*/"
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"web_accessible_resources": ["/vk_files/up-volume.js", "/vk_files/down-volume.js"]
+}
