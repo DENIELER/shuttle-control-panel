@@ -9,6 +9,8 @@ app.set('view engine', 'ejs');
 
 app.engine('html', require('ejs').renderFile);
 
+app.set('views', __dirname + '/views');
+
 app.get('/', function(req, res){
 
 	var ip = req.headers['x-forwarded-for'] || 
