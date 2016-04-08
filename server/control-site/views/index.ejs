@@ -16,23 +16,23 @@
     <div class="content">
       
       <div class="volume">
-        <a href="#" onclick="$.get('http://127.0.0.1:8013/up-volume');">&#9650;</a>
+        <a href="#" onclick="$.get('http://<%= ip %>:8013/up-volume');">&#9650;</a>
       </div>
 
       <div class="player">
         <div>
-          <a href="#" onclick="$.get('http://127.0.0.1:8013/prev-song');">prev</a>
+          <a href="#" onclick="$.get('http://<%= ip %>:8013/prev-song');">prev</a>
         </div>
         <div class="play">
-          <a href="#" onclick="$.get('http://127.0.0.1:8013/pause-song');">&#10073;&#10073; / &#9654;</a>
+          <a href="#" onclick="$.get('http://<%= ip %>:8013/pause-song');">&#10073;&#10073; / &#9654;</a>
         </div>
         <div>
-          <a href="#" onclick="$.get('http://127.0.0.1:8013/next-song');">next</a>
+          <a href="#" onclick="$.get('http://<%= ip %>:8013/next-song');">next</a>
         </div>
       </div>
 
       <div class="volume">
-        <a href="#" onclick="$.get('http://127.0.0.1:8013/down-volume');">&#9660;</a>
+        <a href="#" onclick="$.get('http://<%= ip %>:8013/down-volume');">&#9660;</a>
       </div>
 
     </div>
